@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AsteriodsRails</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body style="padding: 0; margin: 0; background: black;">
+
+	<div id='container'></div>
+	<div id="cancelAnimation" style="position: fixed">
+		<button>Slow</button>
+	</div>
+
+<%= yield %>
+
+</body>
+</html>

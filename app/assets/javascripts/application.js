@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require ./asteroids/planets/threex1
+//= require ./asteroids/planets/threex2
+//= require ./asteroids/planets/threex3
+//= require ./asteroids/vendor/three.js/build/orbitcontrols
+//= require ./asteroids/app
+//= require ./asteroids/stopAnimation
